@@ -1,8 +1,24 @@
-body {
-  position: relative;
-  background-image: url("body-bg.png");
-  background-color: #f7f7f9;
-  background-repeat: no-repeat;
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  height: 58px;
   width: 375px;
-  height: 5410px;
+  align-items:flex-end;
+}
+
+.logo {
+  width: 76px;
+  height: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070FF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
