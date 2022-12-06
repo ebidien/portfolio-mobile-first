@@ -1,0 +1,8 @@
+body {
+  position: relative;
+  background-image: url("body-bg.png");
+  background-color: #f7f7f9;
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 5410px;
+}
