@@ -33,7 +33,7 @@
   left: 0px;
   top: 0px;
   background: #FFFFFF;
-  background-image: url("heading-bg.png");
+  background-image: url("headline-bg.png");
 }
 
 #intro-head {
@@ -85,5 +85,20 @@
 }
 
 .social-media-icon {
+  margin-top: 15px;
   margin-right: 20px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.main-menu:hover {
+  background-color:#f3ba40;
+  cursor: pointer;
+}
+
+.social-media-icon:hover {
+  background-color:#7F8CFF;
+  cursor: pointer;
 }
