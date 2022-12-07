@@ -65,3 +65,25 @@
   order: 1;
   flex-grow: 0;
 }
+
+#connect {
+  width: 134px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#social-media-icons {
+  display: flex;
+}
+
+.social-media-icon {
+  margin-right: 20px;
+}
