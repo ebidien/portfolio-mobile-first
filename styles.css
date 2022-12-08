@@ -1,8 +1,114 @@
-body {
-  position: relative;
-  background-image: url("body-bg.png");
-  background-color: #f7f7f9;
-  background-repeat: no-repeat;
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  height: 58px;
   width: 375px;
-  height: 5410px;
+  align-items: flex-end;
+}
+
+.logo {
+  width: 76px;
+  height: 20px;
+  padding: 20px;
+  font-family: 'Poppins', 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.main-menu {
+  padding: 20px;
+}
+
+.headline {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  flex-direction: row;
+  width: 375px;
+  height: 640px;
+  background: #fff;
+  background-image: url("headline-bg.png");
+}
+
+#intro-head {
+  width: 327px;
+  height: 150px;
+  font-family: 'Poppins', 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172c4f;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#intro-body {
+  width: 327px;
+  height: 146px;
+  font-family: 'Poppins', 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#connect {
+  width: 134px;
+  height: 24px;
+  font-family: 'Poppins', 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.social-media-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 1px;
+}
+
+.social-media-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  height: 25px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.main-menu:hover {
+  background-color: #f3ba40;
+  cursor: pointer;
+}
+
+.social-media-icon:hover {
+  background-color: #7f8ff7;
+  cursor: pointer;
 }
