@@ -50,7 +50,7 @@ body {
   background-image: url("headline-bg.png");
 }
 
-#intro-head {
+.intro-title {
   height: 150px;
   font-family: 'Poppins', 'Anonymous Pro', sans-serif;
   font-style: normal;
@@ -65,7 +65,7 @@ body {
   flex-grow: 0;
 }
 
-#intro-body {
+.intro-body {
   height: 146px;
   font-family: 'Poppins', 'Anonymous Pro', sans-serif;
   font-style: normal;
@@ -78,7 +78,7 @@ body {
   flex-grow: 0;
 }
 
-#connect {
+.connect {
   width: 134px;
   height: 24px;
   font-family: 'Poppins', 'Anonymous Pro', sans-serif;
@@ -209,4 +209,13 @@ body {
   font-size: 17px;
   letter-spacing: 0.03em;
   color: #396df2;
+}
+
+.about-me {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  flex-direction: row;
+  height: 640px;
+  background: #fff;
 }
