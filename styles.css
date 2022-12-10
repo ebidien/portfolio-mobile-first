@@ -180,6 +180,7 @@ body {
 
 .prog-lang {
   display: flex;
+  padding-left: 0;
 }
 
 .lang {
@@ -194,6 +195,9 @@ body {
   margin-right: 5px;
   background: #ebebff;
   border-radius: 8px;
+  display: flex;
+  align-items: center;
+  height: 25px;
 }
 
 .project-link {
@@ -218,4 +222,29 @@ body {
   flex-direction: row;
   height: 640px;
   background: #fff;
+}
+
+.resume-link {
+  width: 160px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  margin-top: 28px;
+  background: transparent;
+  font-family: 'Poppins', 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+}
+
+.project-link:hover {
+  background-color: #9ca1be;
+  cursor: pointer;
+}
+
+.resume-link:hover {
+  background-color: #9ca1be;
+  cursor: pointer;
 }
