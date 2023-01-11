@@ -1,0 +1,41 @@
+body {
+    background: #e5e5e5;
+    width: 100vw;
+    margin: 0;
+}
+
+.toolbar {
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    height: 58px;
+    width: 100%;
+    align-items: flex-end;
+    background: #fff;
+}
+
+.logo {
+    width: 76px;
+    height: 20px;
+    padding: 20px;
+    font-family: 'Poppins', 'Anonymous Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    color: #6070ff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.main-menu {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
