@@ -48,6 +48,8 @@ body {
     height: 640px;
     background: #fff;
     background-image: url("headline-bg.png");
+    background-size: cover;
+    border-radius: 1px 1px 1px 50px;
 }
 
 .intro-title {
