@@ -124,3 +124,115 @@ body {
   background-color: #7f8ff7;
   cursor: pointer;
 }
+
+.works {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  align-items: center;
+  padding: 24px;
+}
+
+.card-works {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  order: 3;
+}
+
+.snapshot {
+  width: 100%;
+}
+
+.project-title {
+  width: 245px;
+  font-family: 'Poppins', 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.caption-container {
+  display: flex;
+}
+
+.text {
+  height: 16px;
+  font-family: 'Poppins', 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.description {
+  font-family: 'Poppins', 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dot {
+  font-size: 48px;
+  font-weight: 600;
+  color: #c1c7d0;
+  line-height: 15px;
+}
+
+.prog-lang {
+  display: flex;
+  padding-left: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lang {
+  font-family: 'Poppins', 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  padding: 4px 12px;
+  margin-right: 5px;
+  background: #ebebff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+
+.project-link {
+  width: 124px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  margin-top: 28px;
+  background: transparent;
+  font-family: 'Poppins', 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  margin-top: 20px;
+}
