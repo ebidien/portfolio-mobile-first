@@ -83,7 +83,7 @@ The project was designed with the following guidelines in mind:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://ebidien.github.io/portfolio-mobile-first/)
+- This link will be updated once the project goes live.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
