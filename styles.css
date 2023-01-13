@@ -236,3 +236,141 @@ body {
   color: #396df2;
   margin-top: 20px;
 }
+
+.about-me {
+  display: block;
+  padding: 20px;
+  align-items: center;
+  flex-direction: row;
+  height: 1000px;
+  background: #fff;
+  border-top: 114px;
+  border-radius: 1px 50px 1px 1px;
+}
+
+.about-title {
+  width: 200px;
+  height: 101px;
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.about-body {
+  width: 327px;
+  height: 144px;
+  font-family: 'Poppins', 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.resume-link {
+  width: 160px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  margin-top: 28px;
+  background: transparent;
+  font-family: 'Poppins', 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.project-link:hover {
+  background-color: #6070ff;
+  cursor: pointer;
+  color: #fff;
+}
+
+.project-link:active {
+  background-color: #2230D2;
+  cursor: pointer;
+  color: #fff;
+}
+
+.resume-link:hover {
+  background-color: #6070ff;
+  cursor: pointer;
+  color: #fff;
+}
+
+.resume-link:active {
+  background-color: #2230D2;
+  cursor: pointer;
+  color: #fff;
+}
+
+.about-stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.stack-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.stack-category {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stack-category h2 {
+  font-family: 'Poppins', 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.category-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.category-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-family: 'Poppins', 'Anonymous Pro', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  padding: 10px;
+  background: #f7f7f9;
+  border-radius: 8px;
+}
+
+.stack-separator {
+  height: 1px;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: #dfe1e6;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
