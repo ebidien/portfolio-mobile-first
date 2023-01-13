@@ -157,7 +157,7 @@ body {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   margin-top: 12px;
   margin-bottom: 12px;
 }
@@ -226,7 +226,6 @@ body {
   height: 48px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  margin-top: 28px;
   background: transparent;
   font-family: 'Poppins', 'Anonymous Pro', sans-serif;
   font-style: normal;
@@ -279,7 +278,6 @@ body {
   height: 48px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  margin-top: 28px;
   background: transparent;
   font-family: 'Poppins', 'Anonymous Pro', sans-serif;
   font-style: normal;
@@ -298,7 +296,7 @@ body {
 }
 
 .project-link:active {
-  background-color: #2230D2;
+  background-color: #2230d2;
   cursor: pointer;
   color: #fff;
 }
@@ -310,7 +308,7 @@ body {
 }
 
 .resume-link:active {
-  background-color: #2230D2;
+  background-color: #2230d2;
   cursor: pointer;
   color: #fff;
 }
@@ -338,7 +336,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #000000;
+  color: #000;
 }
 
 .category-list {
@@ -367,9 +365,9 @@ body {
 .stack-separator {
   height: 1px;
   width: 100%;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: #dfe1e6;
   margin-top: 10px;
   margin-bottom: 10px;
