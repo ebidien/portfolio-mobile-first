@@ -381,3 +381,18 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.contact-me {
+  display: block;
+  padding: 20px;
+  align-items: center;
+  height: 879px;
+  background-color: #6070ff;
+  background-position: center;
+  background-image: url("contact-bg.png");
+  background-repeat: no-repeat;
+  background-position: 100% 40px;
+  border-top: 114px;
+  border-radius: 60px 1px 1px 1px;
+  margin-top: -60px;
+}
