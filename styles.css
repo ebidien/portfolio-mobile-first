@@ -494,3 +494,41 @@ button {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
+
+.submit-button {
+  width: 145px;
+  text-align: center;
+}
+
+.submit-button:hover {
+  height: 48px;
+  left: 252px;
+  top: calc(50% - 48px / 2 + 57.5px);
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.submit-button:active {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background: #2230d2;
+}
