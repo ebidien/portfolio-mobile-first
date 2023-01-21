@@ -705,4 +705,46 @@ textarea::placeholder {
     letter-spacing: 0.03em;
     color: #396df2;
   }
+
+  .about-me {
+    height: 700px;
+    padding-top: 100px;
+  }
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-container div {
+    width: 50%;
+  }
+  .about-title {
+    width: 100px;
+  }
+  .connect {
+    margin: 40px 0;
+  }
+  .about-stack {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+  .stack-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .stack-category {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .category-list {
+    display: flex;
+    flex-direction: row;
+  }
+  .category-item {
+    display: flex;
+    flex-direction: column;
+  }
 }
