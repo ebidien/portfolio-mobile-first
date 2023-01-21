@@ -626,7 +626,7 @@ textarea::placeholder {
   .card-works {
     flex-direction: row;
     gap: 46px;
-    margin: 40px 0;
+    margin: 140px 40px;
   }
 
   .snapshot {
@@ -704,5 +704,97 @@ textarea::placeholder {
     font-size: 17px;
     letter-spacing: 0.03em;
     color: #396df2;
+  }
+
+  .card-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .about-me {
+    height: 700px;
+    padding-top: 100px;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-container div {
+    width: 50%;
+  }
+
+  .about-title {
+    width: 100px;
+  }
+
+  .connect {
+    margin: 40px 0;
+  }
+
+  .about-stack {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+
+  .stack-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stack-category {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .category-list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .category-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-me {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .contact-header {
+    display: block;
+    width: 50%;
+  }
+
+  .contact-details {
+    width: 50%;
+  }
+
+  .contact-details > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  input {
+    width: 100%;
+    padding: 16px;
+  }
+
+  input::placeholder {
+    color: #172b4d;
+  }
+
+  textarea {
+    width: 100%;
   }
 }
