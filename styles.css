@@ -706,6 +706,10 @@ textarea::placeholder {
     color: #396df2;
   }
 
+  .card-reverse {
+    flex-direction: row-reverse;
+  }
+
   .about-me {
     height: 700px;
     padding-top: 100px;
@@ -746,5 +750,36 @@ textarea::placeholder {
   .category-item {
     display: flex;
     flex-direction: column;
+  }
+
+  .contact-me {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .contact-header {
+    display: block;
+    width: 50%;
+  }
+  .contact-details {
+    width: 50%;
+  }
+  .contact-details > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  input {
+    width: 100%;
+    padding: 16px;
+  }
+  input::placeholder {
+    color: #172B4D;
+  }
+  textarea {
+    width: 100%;
   }
 }
