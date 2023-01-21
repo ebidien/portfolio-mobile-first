@@ -44,7 +44,6 @@ body {
 .headline {
   display: flex;
   padding: 24px;
-  width: 100%;
   align-items: center;
   flex-direction: row;
   height: 640px;
@@ -57,7 +56,7 @@ body {
 }
 
 .intro-title {
-  /* height: 150px; */
+  height: 150px;
   font-family: "Poppins", "Anonymous Pro", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -66,16 +65,22 @@ body {
   display: flex;
   align-items: center;
   color: #172c4f;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .intro-body {
-  /* height: 146px; */
+  height: 146px;
   font-family: "Poppins", "Anonymous Pro", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .connect h2 {
@@ -87,6 +92,9 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .social-media-icons {
@@ -532,11 +540,6 @@ textarea::placeholder {
 }
 
 @media screen and (min-width: 768px) {
-  .header {
-    height: 120px;
-    background: #fff;
-  }
-
   .toolbar {
     display: flex;
     overflow: hidden;
@@ -590,50 +593,6 @@ textarea::placeholder {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #344563;
-  }
-
-  .headline {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    height: 800px;
-    background: #fff;
-    background-image: url("headline-bg-1x.png");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    border-radius: 1px 1px 1px 80px;
-    padding-left: 120px;
-    padding-right: 120px;
-    box-sizing: border-box;
-    padding-top: 0;
-    margin-top: 0;
-  }
-
-  .intro-title {
-    width: 450px;
-    height: 150px;
-    font-family: "Poppins", "Anonymous Pro", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
-    color: #172c4f;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
-
-  .intro-body {
-    width: 750px;
-    font-family: "Poppins", "Anonymous Pro", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
     color: #344563;
   }
 }
