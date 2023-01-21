@@ -626,7 +626,7 @@ textarea::placeholder {
   .card-works {
     flex-direction: row;
     gap: 46px;
-    margin: 40px 0;
+    margin: 140px 40px;
   }
 
   .snapshot {
